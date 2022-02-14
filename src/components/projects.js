@@ -25,7 +25,7 @@ const Projects = () => {
         }
     }
     return (
-        <div className='projects'>
+        <div className='projects' id='nav-to-projects'>
             <div className="project-heading">My Portfolio</div>
             <div className="project-nav">
                 <div className='pnav'>

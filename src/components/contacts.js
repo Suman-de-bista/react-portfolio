@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contacts = () => {
     return (
-        <div className='contact'>
+        <div className='contact' id='nav-to-contact'>
             <div className="contact-heading">Contacts</div>
             <div className='contact-input-main'>
                 <div className="contact-input contact-name">

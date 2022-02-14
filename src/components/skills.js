@@ -4,7 +4,7 @@ import {FaHtml5,FaCss3Alt,FaReact,FaPython,FaGitAlt,FaJs} from 'react-icons/fa'
 
 const Skills = () => {
     return (
-        <div className='skills'> 
+        <div className='skills' id='nav-to-skills'> 
             <div className="skill-heading">Skills</div>
             <div className="skill-list">
                     <div className='skill-set'><FaHtml5/> <span>HTML5</span></div>

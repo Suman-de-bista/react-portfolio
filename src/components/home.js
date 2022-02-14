@@ -4,7 +4,7 @@ import {FaFacebook,FaInstagram,FaTwitter,FaLinkedin,FaGithub} from 'react-icons/
 const Home = () => {
     
     return (
-        <div className='home'>
+        <div className='home' id='nav-to-home'>
                 <div className="home-cover">
                     <img src='images/cover.png' alt='cover'/>
                 </div>
