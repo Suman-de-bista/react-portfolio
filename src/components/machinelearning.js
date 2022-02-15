@@ -5,9 +5,9 @@ import {Card,CardContent,CardMedia,Typography, CardActionArea } from '@mui/mater
 const Machinelearning = () => {
     return (
             <div className='project-main'>
-                <div className="project-card project-1 pml">
-                    <Card sx={{ maxWidth: 345 }}>
-                        <CardActionArea>
+                <div className="project-card project-1 pml" data-aos="zoom-in">
+                    <Card sx={{ maxWidth: 345 }} className='cards'>
+                        <CardActionArea href='https://github.com/Suman-de-bista/Stock-market_Prediction-Using-Neural_Network'>
                             <CardMedia
                             component="img"
                             height="220"
@@ -22,8 +22,8 @@ const Machinelearning = () => {
                         </CardActionArea>
                     </Card>
                 </div>
-                <div className="project-card project-2 pml">
-                    <Card sx={{ maxWidth: 345 }}>
+                <div className="project-card project-2 pml" data-aos="zoom-in">
+                    <Card sx={{ maxWidth: 345 }} className='cards'>
                         <CardActionArea>
                             <CardMedia
                             component="img"

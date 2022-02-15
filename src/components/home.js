@@ -4,7 +4,7 @@ import {FaFacebook,FaInstagram,FaTwitter,FaLinkedin,FaGithub} from 'react-icons/
 const Home = () => {
     
     return (
-        <div className='home' id='nav-to-home'>
+        <div className='home' id='home'>
                 <div className="home-cover">
                     <img src='images/cover.png' alt='cover'/>
                 </div>
@@ -12,10 +12,7 @@ const Home = () => {
                     <div className="content home-content1">Hello There!</div>
                     <div className="content home-content2">I'M SUMAN BISTA</div>
                     <div className="content home-content3">
-                        {/* {prof.map((number)=>(
-                        <span>{number}</span>
-                    ))} */}
-                    Computer Engineer
+                    Web Developer
                     </div>
                     <div className="content home-content4">
                         <p align='justify'>I'm an Enthusiastic Web developer who has a knowledge of HTML, CSS and JS. I enjoy building a small business sites to rich interactive web apps. Besides, I've knowledge of Python and has worked on machine learning and deep learning for my projects.

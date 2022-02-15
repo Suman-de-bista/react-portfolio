@@ -1,8 +1,10 @@
 import React from 'react';
+import {FaUserCircle,FaMobile,FaGraduationCap} from 'react-icons/fa' 
+import {MdLocationPin,MdEmail,MdOutlineKeyboardArrowRight} from 'react-icons/md' 
 
 const About = () => {
     return (
-        <div className='about' id='nav-to-about'>
+        <div className='about' id='about'>
             <div className="about-me">
                 <div className="me about-me-heading">About Me!</div>
                 <div className="me about-me-contents" align='justify'>
@@ -10,11 +12,30 @@ const About = () => {
                 </div>
                 <div className="me about-me-details">
                     <ul>
-                        <li>Name         : Suman Bista</li>
-                        <li>Age          : 22</li>
-                        <li>Address      : Bharatpur-12, Chitwan, Nepal</li>
-                        <li>Phone Number : +977-9865005596</li>
-                        <li>Email        : sumanbista2012@gmail.com </li>
+                        <li>
+                            <div className="about-me-logo"><FaUserCircle/></div>
+                            <div className="about-me-list">: Suman Bista</div>
+                        </li>
+                        <li>
+                            <div className="about-me-logo"><MdOutlineKeyboardArrowRight/></div>
+                            <div className="about-me-list">: 22 Years Old</div>
+                        </li>
+                        <li>
+                            <div className="about-me-logo"><FaGraduationCap/></div>
+                            <div className="about-me-list">: Bachelors in Computer Engineering</div>
+                        </li>
+                        <li>
+                            <div className="about-me-logo"><MdLocationPin/></div>
+                            <div className="about-me-list">: Bharatpur-12,Chitwan,Nepal </div>
+                        </li>
+                        <li>
+                            <div className="about-me-logo"><FaMobile/></div>
+                            <div className="about-me-list">: +977-9865005596</div>
+                        </li>
+                        <li>
+                            <div className="about-me-logo"><MdEmail/></div>
+                            <div className="about-me-list">: Sumanbista2012@gmail.com</div>
+                        </li>
                     </ul>
                 </div>
                 <div className="me download-cv-btn">

@@ -3,13 +3,24 @@ import {Tabs,Tab,Box} from '@mui/material'
 
 const Navbar = (props) => {
     const [value, setValue] = useState('one');
+    const [navBar, setNavBar] = useState(false);
+
+    const changeNavColor = ()=>{
+        if (window.scrollY >=80){
+            setNavBar(true)
+        }
+        else{
+            setNavBar(false)
+        }
+    }
+    window.addEventListener('scroll', changeNavColor);
 
     const handleChange = (event, newValue) => {
     setValue(newValue);
     };
 
     return (
-        <div className='nav-bar'>
+        <div className={navBar ? 'nav-bar nav-changecolor': 'nav-bar'}>
             <div className="nav-bar-name">Suman <span>Bista</span></div>
             <div className="nav-bar-btn">
                 <Box sx={{ width: '100%' }}>

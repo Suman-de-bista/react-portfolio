@@ -25,15 +25,15 @@ const Projects = () => {
         }
     }
     return (
-        <div className='projects' id='nav-to-projects'>
+        <div className='projects' id='portfolio'>
             <div className="project-heading">My Portfolio</div>
             <div className="project-nav">
-                <div className='pnav'>
+                <div className={selectProject==='Machinelearning'? 'pnav pnav-name': 'pnav'}>
                     <button  onClick={handleClick} value='Machinelearning'>
                         Machine Learning
                     </button>
                 </div>
-                <div className="pnav">
+                <div className={selectProject==='Reactproject'? 'pnav pnav-name': 'pnav'}>
                     <button onClick={handleClick} value='Reactproject'>
                         React Js
                     </button>

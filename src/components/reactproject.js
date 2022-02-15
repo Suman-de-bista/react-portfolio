@@ -4,13 +4,13 @@ import {Card,CardContent,CardMedia,Typography, CardActionArea } from '@mui/mater
 
 const Reactproject = () => {
     return (
-        <div className='project-main'>
-             <div className="project-card project">
-                    <Card sx={{ maxWidth: 345 }}>
-                        <CardActionArea>
+            <div className='project-main'>
+                <div className="project-card project" data-aos="zoom-in">
+                    <Card sx={{ maxWidth: 345 }} className='cards'>
+                        <CardActionArea href='https://suman-de-bista.github.io/react_todo/'>
                             <CardMedia
                             component="img"
-                            height="220"
+                            height="285"
                             image="images/todo.png"
                             alt="To-DO"
                             />
@@ -22,12 +22,12 @@ const Reactproject = () => {
                         </CardActionArea>
                     </Card>
                 </div>
-                <div className="project-card project">
-                    <Card sx={{ maxWidth: 345 }}>
-                        <CardActionArea>
+                <div className="project-card project" data-aos="zoom-in">
+                    <Card sx={{ maxWidth: 345 }} className='cards'>
+                        <CardActionArea href='https://github.com/Suman-de-bista/react-twitter-clone'>
                             <CardMedia
                             component="img"
-                            height="220"
+                            height="285"
                             image="images/twitter.png"
                             
                             alt="Twitter"
@@ -40,29 +40,12 @@ const Reactproject = () => {
                         </CardActionArea>
                     </Card>
                 </div>
-                <div className="project-card project">
-                    <Card sx={{ maxWidth: 345 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                component="img"
-                                height="220"
-                                image="images/login.png"
-                                alt="login"
-                                />
-                                <CardContent>
-                                <Typography gutterBottom variant="h5" component="div">
-                                    React Login App
-                                </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                    </Card>
-                </div>
-                <div className="project-card project">
-                    <Card sx={{ maxWidth: 345 }}>
-                                <CardActionArea>
+                <div className="project-card project" data-aos="zoom-in">
+                    <Card sx={{ maxWidth: 345 }} className='cards'>
+                                <CardActionArea href='https://github.com/Suman-de-bista/react-weather-app'>
                                     <CardMedia
                                     component="img"
-                                    height="220"
+                                    height="285"
                                     image="images/weather.png"
                                     alt="weather"
                                     />
@@ -74,12 +57,12 @@ const Reactproject = () => {
                                 </CardActionArea>
                     </Card>
                 </div>
-                {/* <div className="project-card project">
-                    <Card sx={{ maxWidth: 345 }}>
-                                <CardActionArea>
+                <div className="project-card project project-calculator" data-aos="zoom-in">
+                    <Card sx={{ maxWidth: 345 }} className='cards'>
+                                <CardActionArea href='https://github.com/Suman-de-bista/react-calculator'>
                                     <CardMedia
                                     component="img"
-                                    height="220"
+                                    height="285"
                                     image="images/calculator.png"
                                     alt="calculator"
                                     />
@@ -90,8 +73,25 @@ const Reactproject = () => {
                                     </CardContent>
                                 </CardActionArea>
                     </Card>
-                </div>  */}
-        </div>
+                </div> 
+                {/* <div className="project-card project project-login" data-aos="zoom-in">
+                    <Card sx={{ maxWidth: 345 }}>
+                            <CardActionArea href='https://github.com/Suman-de-bista/react-login'>
+                                <CardMedia
+                                component="img"
+                                height="285"
+                                image="images/login.png"
+                                alt="login"
+                                />
+                                <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    React Login App
+                                </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                    </Card>
+                </div> */}
+            </div>
     );
 }
 
