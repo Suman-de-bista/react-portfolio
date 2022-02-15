@@ -8,7 +8,7 @@ const About = () => {
             <div className="about-me">
                 <div className="me about-me-heading">About Me!</div>
                 <div className="me about-me-contents" align='justify'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt nulla accusamus corporis, cumque quod porro minima deserunt recusandae id sint non deleniti nam nisi necessitatibus praesentium cupiditate, qui illo omnis. Culpa quae facere tempore saepe nobis. Illo, sit alias. Autem enim sed repellat voluptas maiores repellendus, deserunt suscipit eos voluptatum.
+                Hey, It's me Suman Bista, final year Computer Engineering student currently studying in Kantipur Engineering College Dhapakhel, Lalitpur. I'm an Enthusiastic Web developer who has a knowledge of HTML, CSS and JS. I enjoy building a small business sites to rich interactive web apps. Besides, I've knowledge of Python and has worked on machine learning and deep learning for my projects.
                 </div>
                 <div className="me about-me-details">
                     <ul>
