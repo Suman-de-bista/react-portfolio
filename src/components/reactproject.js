@@ -6,11 +6,13 @@ const Reactproject = () => {
     return (
             <div className='project-main'>
                 <div className="project-card project" data-aos="zoom-in">
-                    <Card sx={{ minWidth: 250 }} className='cards'>
+                    <Card  className='cards-react'>
                         <CardActionArea href='https://suman-de-bista.github.io/react_todo/'>
                             <CardMedia
+                            className='card-media'
                             component="img"
                             height="285"
+                            width="200"
                             image="images/todo.png"
                             alt="To-DO"
                             />
@@ -23,11 +25,13 @@ const Reactproject = () => {
                     </Card>
                 </div>
                 <div className="project-card project" data-aos="zoom-in">
-                    <Card sx={{ minWidth: 250 }} className='cards'>
+                    <Card  className='cards-react'>
                         <CardActionArea href='https://github.com/Suman-de-bista/react-twitter-clone'>
                             <CardMedia
+                            className='card-media'
                             component="img"
                             height="285"
+                            width="200"
                             image="images/twitter.png"
                             
                             alt="Twitter"
@@ -41,11 +45,13 @@ const Reactproject = () => {
                     </Card>
                 </div>
                 <div className="project-card project" data-aos="zoom-in">
-                    <Card sx={{ minWidth: 250 }} className='cards'>
+                    <Card  className='cards-react'>
                                 <CardActionArea href='https://github.com/Suman-de-bista/react-weather-app'>
                                     <CardMedia
+                                    className='card-media'
                                     component="img"
                                     height="285"
+                                    width="200"
                                     image="images/weather.png"
                                     alt="weather"
                                     />
@@ -58,11 +64,13 @@ const Reactproject = () => {
                     </Card>
                 </div>
                 <div className="project-card project project-calculator" data-aos="zoom-in">
-                    <Card sx={{ minWidth: 250 }} className='cards'>
+                    <Card  className='cards-react'>
                                 <CardActionArea href='https://github.com/Suman-de-bista/react-calculator'>
                                     <CardMedia
+                                    className='card-media'
                                     component="img"
                                     height="285"
+                                    width="200"
                                     image="images/calculator.png"
                                     alt="calculator"
                                     />
