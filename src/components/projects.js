@@ -26,7 +26,7 @@ const Projects = () => {
     }
     return (
         <div className='projects' id='portfolio'>
-            <div className="project-heading">My Portfolio</div>
+            <div className="project-heading">My Projects</div>
             <div className="project-nav">
                 <div className={selectProject==='Machinelearning'? 'pnav pnav-name': 'pnav'}>
                     <button  onClick={handleClick} value='Machinelearning'>

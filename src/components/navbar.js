@@ -34,7 +34,7 @@ const Navbar = (props) => {
                         <Tab value="one" label="Home" className='nav-bar-tab'/>
                         <Tab value="two" label="About" className='nav-bar-tab'/>
                         <Tab value="three" label="Skills" className='nav-bar-tab'/>
-                        <Tab value="four" label="Portfolio" className='nav-bar-tab'/>
+                        <Tab value="four" label="Projects" className='nav-bar-tab'/>
                         <Tab value="five" label="Contacts" className='nav-bar-tab'/>
                     </Tabs>
                 </Box>

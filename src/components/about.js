@@ -22,7 +22,7 @@ const About = () => {
                         </li>
                         <li>
                             <div className="about-me-logo"><FaGraduationCap/></div>
-                            <div className="about-me-list">: Bachelors in Computer Engineering</div>
+                            <div className="about-me-list">:Bachelors in Computer Engineering</div>
                         </li>
                         <li>
                             <div className="about-me-logo"><MdLocationPin/></div>
@@ -44,7 +44,7 @@ const About = () => {
                 
             </div>
             <div className="about-me-pic">
-                <img src="images/cover12.png" alt="Cover" />
+                <img src="images\cover12.png" alt="Cover" />
             </div>
         </div>
     );

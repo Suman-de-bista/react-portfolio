@@ -6,7 +6,7 @@ const Reactproject = () => {
     return (
             <div className='project-main'>
                 <div className="project-card project" data-aos="zoom-in">
-                    <Card sx={{ maxWidth: 345 }} className='cards'>
+                    <Card sx={{ minWidth: 250 }} className='cards'>
                         <CardActionArea href='https://suman-de-bista.github.io/react_todo/'>
                             <CardMedia
                             component="img"
@@ -23,7 +23,7 @@ const Reactproject = () => {
                     </Card>
                 </div>
                 <div className="project-card project" data-aos="zoom-in">
-                    <Card sx={{ maxWidth: 345 }} className='cards'>
+                    <Card sx={{ minWidth: 250 }} className='cards'>
                         <CardActionArea href='https://github.com/Suman-de-bista/react-twitter-clone'>
                             <CardMedia
                             component="img"
@@ -41,7 +41,7 @@ const Reactproject = () => {
                     </Card>
                 </div>
                 <div className="project-card project" data-aos="zoom-in">
-                    <Card sx={{ maxWidth: 345 }} className='cards'>
+                    <Card sx={{ minWidth: 250 }} className='cards'>
                                 <CardActionArea href='https://github.com/Suman-de-bista/react-weather-app'>
                                     <CardMedia
                                     component="img"
@@ -58,7 +58,7 @@ const Reactproject = () => {
                     </Card>
                 </div>
                 <div className="project-card project project-calculator" data-aos="zoom-in">
-                    <Card sx={{ maxWidth: 345 }} className='cards'>
+                    <Card sx={{ minWidth: 250 }} className='cards'>
                                 <CardActionArea href='https://github.com/Suman-de-bista/react-calculator'>
                                     <CardMedia
                                     component="img"

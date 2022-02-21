@@ -370,7 +370,9 @@ body{
 
 .projects{
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 .project-heading{
@@ -420,7 +422,7 @@ body{
 }
 .project-main{
   display: flex;
-  justify-content: space-around;  
+  justify-content: center;  
   align-items: center;
   margin: 25px 0;
   padding: 40px 0;
@@ -429,18 +431,18 @@ body{
   background-color:#4c88c4 ;
 }
 
-.project-1{
+/* .project-1{
   display: flex;
   justify-content: right;
-} 
+}  */
 .project-card{
   display:flex;
   flex-wrap: wrap;
-  width: 80vh;
+  /* width: 80vh; */
   padding: 20px;
 }
 .project{
-  width: 40vh;
+  /* width: 40vh; */
 }
 .pml{
   padding: 20px 40px;
@@ -557,7 +559,7 @@ body{
   }
   .about-me{
     margin-top: 25px;
-    width: 70%;
+    width: 85%;
   }
   .about-me-details{
     margin-right: -30px;
@@ -570,7 +572,7 @@ body{
   }
   .home-content{
     margin-top: 120px;
-    width: 80%;
+    width: 90%;
   }
   .skill-list{
     width: 90%;
@@ -579,10 +581,13 @@ body{
     width: 90%;
   }
   .contact-input-main{
-    width: 80%;
+    width: 100%;
+  }
+  .contact-input{
+    width: 30%;
   }
   .contact-message{
-    width: 80%;
+    width:90%;
   }
   .footer-content{
     font-size: 18px;

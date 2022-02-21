@@ -20,8 +20,8 @@ function App() {
       <Navigationbar />
       <Home/>
       <About />
-      <Skills/>
       <Projects/>
+      <Skills/>
       <Contacts/>
       <Footer/>
     </div>
