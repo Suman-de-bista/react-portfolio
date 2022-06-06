@@ -12,9 +12,6 @@ const Home = () => {
                 <div className="home-content">
                     <div className="content home-content1">Hello There!</div>
                     <div className="content home-content2">I'M SUMAN BISTA</div>
-                    {/* <div className="content home-content3">
-                    Web Developer
-                    </div> */}
                     <Typical className="content home-content3"
                         loop = {Infinity}
                         steps = {[
