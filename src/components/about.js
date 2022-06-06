@@ -1,8 +1,12 @@
 import React from 'react';
 import {FaUserCircle,FaMobile,FaGraduationCap} from 'react-icons/fa' 
 import {MdLocationPin,MdEmail,MdOutlineKeyboardArrowRight} from 'react-icons/md' 
+// import {ResumeDoc} from  '../../public/files/Suman-CV.pdf'
 
 const About = () => {
+    // const  downloadFile = () => {
+    //     window.location.href = ResumeDoc
+    // }
     return (
         <div className='about' id='about'>
             <div className="about-me">
@@ -39,7 +43,8 @@ const About = () => {
                     </ul>
                 </div>
                 <div className="me download-cv-btn">
-                    <button>Download Cv</button>
+                    
+                    <a href={'files/Suman-CV.pdf'} download> <button>Download CV</button></a>
                 </div>
                 
             </div>

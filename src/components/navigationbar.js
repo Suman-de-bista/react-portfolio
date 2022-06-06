@@ -33,15 +33,15 @@ const Navbar = (props) => {
     });
     return (
         <div className={navBar ? 'nav-bar nav-changecolor': 'nav-bar'}>
-            <div className="nav-bar-name">Suman <span>Bista</span></div>
+            <div className="nav-bar-name">
+                Suman <span>Bista</span>
+            </div>
             <div class="navBar">
                 <button onClick={handleToggle} className={navBar ? ' nav-changecolor': 'navbarhamburger'}>
                 {
                      (hamburgerbtn)? <MdCancel/>:<MdMenu/>
                 }
-                    {/* <i class="fa fa-caret-down"></i> */}
                 </button>
-                {/* <div className={navBar ? 'nav-bar-btn nav-changecolor dropdown-content': 'nav-bar-btn dropdown-content'}>    */}
                 <ul className={`menuNav ${hamburgerbtn ? " showMenu" : ""}`}>
                     <li ><a href="#home">Home</a></li>
                     <li ><a href="#about">About</a></li>
@@ -51,7 +51,6 @@ const Navbar = (props) => {
                 </ul>
                     
                 
-            {/* </div> */}
             </div>
 
             <div className={navBar ? 'nav-bar-btn nav-changecolor': 'nav-bar-btn'}>

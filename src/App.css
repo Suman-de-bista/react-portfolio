@@ -26,6 +26,9 @@ body{
   background-color: #184777;
   color:white;
 }
+.nav-changecolor .nav-bar-name a{
+  color: white;
+}
 .nav-changecolor li a{
   color: white;
 }
@@ -100,7 +103,7 @@ body{
   border: #184777;
 }
 .navbarhamburger{
-  background-color: white;
+  background-color: azure;
 }
 
 .menuNav {
@@ -180,25 +183,25 @@ a {
   padding-top: 20px;
 }
 .home-content3{
-  width: 0ch;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: text 5s steps(13) infinite ;
-  border-right: 3px solid #1976d2;
+  /* width: 0ch; */
+  /* overflow: hidden; */
+  /* white-space: nowrap; */
+  /* animation: text 5s steps(13) infinite ; */
+  /* border-right: 3px solid #1976d2; */
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 550;
   color: #1976d2;
   text-shadow: 2px 1px rgba(159, 163, 197, 0.2);;
 }
-@keyframes text{
+/* @keyframes text{
   0%{
     width: 0ch;
   }
   50%{
     width: 13ch;
   }
-}
+} */
 .home-content4{
   width: 100%;
 }
@@ -300,6 +303,10 @@ a {
   font-family: 'Josefin Sans', sans-serif;
   border: none;
   box-shadow: 2px 3px rgba(0,0,0,0.3);
+}
+.download-cv-btn  a{
+  text-decoration: none;
+  color: white;
 }
 .download-cv-btn button:hover{
   background-color: #184777;
@@ -435,9 +442,6 @@ a {
   flex-wrap: wrap;
   /* width: 80vh; */
   padding: 20px;
-}
-.project{
-  /* width: 40vh; */
 }
 .pml{
   padding: 20px 40px;

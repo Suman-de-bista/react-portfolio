@@ -7,7 +7,7 @@ const Machinelearning = () => {
             <div className='project-main'>
                 <div className="project-card project-1 pml" data-aos="zoom-in">
                     <Card sx={{ maxWidth: 345 }} className='cards'>
-                        <CardActionArea href='https://github.com/Suman-de-bista/Stock-market_Prediction-Using-Neural_Network'>
+                        <CardActionArea href='https://github.com/Suman-de-bista/Stock-market_Prediction-Using-Neural_Network' target="_blank" rel="noreferrer">
                             <CardMedia
                             component="img"
                             height="220"

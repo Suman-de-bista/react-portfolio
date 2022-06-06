@@ -7,7 +7,7 @@ const Reactproject = () => {
             <div className='project-main'>
                 <div className="project-card project" data-aos="zoom-in">
                     <Card  className='cards-react'>
-                        <CardActionArea href='https://suman-de-bista.github.io/react_todo/'>
+                        <CardActionArea href='https://suman-de-bista.github.io/react_todo/' target="_blank" rel="noreferrer">
                             <CardMedia
                             className='card-media'
                             component="img"
@@ -26,7 +26,7 @@ const Reactproject = () => {
                 </div>
                 <div className="project-card project" data-aos="zoom-in">
                     <Card  className='cards-react'>
-                        <CardActionArea href='https://github.com/Suman-de-bista/react-twitter-clone'>
+                        <CardActionArea href='https://github.com/Suman-de-bista/react-twitter-clone' target="_blank" rel="noreferrer">
                             <CardMedia
                             className='card-media'
                             component="img"
@@ -46,7 +46,26 @@ const Reactproject = () => {
                 </div>
                 <div className="project-card project" data-aos="zoom-in">
                     <Card  className='cards-react'>
-                                <CardActionArea href='https://github.com/Suman-de-bista/react-weather-app'>
+                                <CardActionArea href='https://github.com/Suman-de-bista/react-recipe-app' target="_blank" rel="noreferrer">
+                                    <CardMedia
+                                    className='card-media'
+                                    component="img"
+                                    height="285"
+                                    width="200"
+                                    image="images/Recipe.png"
+                                    alt="Recipe"
+                                    />
+                                    <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        React Recipe App
+                                    </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                    </Card>
+                </div>
+                <div className="project-card project" data-aos="zoom-in">
+                    <Card  className='cards-react'>
+                                <CardActionArea href='https://github.com/Suman-de-bista/react-weather-app' target="_blank" rel="noreferrer">
                                     <CardMedia
                                     className='card-media'
                                     component="img"
@@ -63,42 +82,6 @@ const Reactproject = () => {
                                 </CardActionArea>
                     </Card>
                 </div>
-                <div className="project-card project project-calculator" data-aos="zoom-in">
-                    <Card  className='cards-react'>
-                                <CardActionArea href='https://github.com/Suman-de-bista/react-calculator'>
-                                    <CardMedia
-                                    className='card-media'
-                                    component="img"
-                                    height="285"
-                                    width="200"
-                                    image="images/calculator.png"
-                                    alt="calculator"
-                                    />
-                                    <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        React Calculator 
-                                    </Typography>
-                                    </CardContent>
-                                </CardActionArea>
-                    </Card>
-                </div> 
-                {/* <div className="project-card project project-login" data-aos="zoom-in">
-                    <Card sx={{ maxWidth: 345 }}>
-                            <CardActionArea href='https://github.com/Suman-de-bista/react-login'>
-                                <CardMedia
-                                component="img"
-                                height="285"
-                                image="images/login.png"
-                                alt="login"
-                                />
-                                <CardContent>
-                                <Typography gutterBottom variant="h5" component="div">
-                                    React Login App
-                                </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                    </Card>
-                </div> */}
             </div>
     );
 }
