@@ -5,9 +5,6 @@
 }
 
 body{
-  /* For Dark Mode
-  background-color: #232a34;
-  color: white;  */
   background-color: azure;
 }
 
@@ -183,25 +180,13 @@ a {
   padding-top: 20px;
 }
 .home-content3{
-  /* width: 0ch; */
-  /* overflow: hidden; */
-  /* white-space: nowrap; */
-  /* animation: text 5s steps(13) infinite ; */
-  /* border-right: 3px solid #1976d2; */
   font-family: 'Josefin Sans', sans-serif;
   font-size: 24px;
   font-weight: 550;
   color: #1976d2;
   text-shadow: 2px 1px rgba(159, 163, 197, 0.2);;
 }
-/* @keyframes text{
-  0%{
-    width: 0ch;
-  }
-  50%{
-    width: 13ch;
-  }
-} */
+
 .home-content4{
   width: 100%;
 }
@@ -372,7 +357,6 @@ a {
 
 .projects{
   display: flex;
-  /* justify-content: space-around; */
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -433,14 +417,10 @@ a {
   background-color:#4c88c4 ;
 }
 
-/* .project-1{
-  display: flex;
-  justify-content: right;
-}  */
+
 .project-card{
   display:flex;
   flex-wrap: wrap;
-  /* width: 80vh; */
   padding: 20px;
 }
 .pml{
