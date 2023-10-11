@@ -27,7 +27,7 @@ const About = () => {
                 <FaGraduationCap />
               </div>
               <div className="about-me-list">
-                :Bachelors in Computer Engineering (2017 - 2022)
+                : Bachelors in Computer Engineering (2017 - 2022)
               </div>
             </li>
             <li>

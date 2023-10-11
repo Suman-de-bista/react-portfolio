@@ -15,7 +15,7 @@ const Home = () => {
                     <Typical className="content home-content3"
                         loop = {Infinity}
                         steps = {[
-                            'Web Developer',
+                            'Software Developer',
                             1000,
                             'Computer Engineer',
                             1000,
@@ -24,7 +24,7 @@ const Home = () => {
                         ]}
                     />
                     <div className="content home-content4">
-                        <p align='justify'>I'm an Enthusiastic Web developer who enjoy building a small business sites to rich interactive web apps. Besides, I've knowledge of Python and has worked on machine learning and deep learning for my projects.
+                        <p align='justify'>I'm a passionate developer with expertise in front-end and back-end technologies, creating captivating small business websites and interactive web applications. Proficient in HTML, CSS, and JavaScript, I craft engaging user interfaces and implement robust server-side solutions. My Python skills expand beyond web development, offering a versatile skill set for crafting data-driven web experiences.
                         </p>
                     </div>
                     <div className="content home-content5">
